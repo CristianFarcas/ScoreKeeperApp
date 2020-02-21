@@ -1,0 +1,30 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#818181</item>
+        <item name="colorPrimaryDark">#818181</item>
+    </style>
+
+    <!-- Basketball activity theme. -->
+    <style name="Basketball" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">#FF9800</item>
+
+        <!-- Background color of buttons in the activity -->
+        <item name="colorButtonNormal">#FF9800</item>
+    </style>
+
+    <!-- Football activity theme. -->
+    <style name="Football" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">#0066FF</item>
+        <item name="colorButtonNormal">#0066FF</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- Back button theme. -->
+    <style name="Back" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">#c2c2c2</item>
+        <item name="colorButtonNormal">#c2c2c2</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+</resources>
